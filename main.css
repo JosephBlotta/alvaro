@@ -90,11 +90,11 @@ header nav li{
 }
 @media (max-width: 800px){
     header{
-        padding: 20px 50px;
-        flex-direction: column;
+        padding: 20px 20px;
     }
-    header h2{
-        margin-bottom: 15px;
+    header img{
+        height: 50px;
+        margin-bottom: 15px;;
     }
     header nav li{
         margin: 0 7px;
@@ -149,7 +149,7 @@ header nav li{
         font-size: 28px;
     }
     .banner-area h3{
-        font-size: 24px;
+        font-size: 20px;
     }
     .banner-area a.btn{
         padding: 15px 40px;
@@ -201,7 +201,6 @@ header nav li{
 @media (max-width: 800px){
     .work-area .content-area{
         flex-basis: 100%;
-        padding: 20px;
     }
 }
 .newsletter form{
@@ -267,7 +266,7 @@ footer{
 }
 footer p {
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 9px;
     opacity: 0.6;
     align-self: center;
 }
